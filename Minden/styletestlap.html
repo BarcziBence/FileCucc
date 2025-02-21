@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AAAAAAAAAA</title>
+    <script src="https://kit.fontawesome.com/26a3e6423d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="application">
+        <div class="application-header">
+            <div class="title-cont">
+                <h1>Totally not commander copy</h1>
+            </div>
+            <div class="button-cont">
+                <label class="switch">
+                    <input class="checker" type="checkbox" id="ThemeSwitch">
+                    <div class="switch-slider">
+                        <i class="fa-solid fa-moon hold"></i>
+                        <i class="fa-regular fa-sun nap"></i>
+                    </div>
+                </label>
+            </div>
+        </div>
+        <div class="application-main">
+            <!-- left -->
+            <div class="main-left">
+                <div class="path-container">
+                    <label class="dropdown-arrow-label">
+                        <input type="checkbox" id="ArrowCheck" class="checker">
+                        <div class="dropdown-arrow">&#9660;</div>
+                    </label>
+                    <div class="dropdown-list" id="dropdown-list-left">
+                        
+                    </div>
+                    <div contenteditable="true" class="path" id="left-path"></div>
+                </div>
+                <div class="application-window window-left" id="window-left">
+                    <table class="content-table table-left" id="table-left">
+                        <thead>
+                            <tr>
+                                <th>Név</th>
+                                <th>Formátum</th>
+                                <th>Méret</th>
+                                <th>Dátum</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-left-body">
+                            <tr class="file">
+                                <td>Szar</td>
+                                <td>Szöveges dokumentum (.txt)</td>
+                                <td>10.2Mb</td>
+                                <td>2002-02-12</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- middle -->
+            <div class="slider">
+                
+            </div>
+            <!-- right -->
+            <div class="main-right">
+                <div class="path-container">
+                    <label class="dropdown-arrow-label">
+                        <input type="checkbox" id="ArrowCheck" class="checker">
+                        <div class="dropdown-arrow">&#9660;</div>
+                    </label>
+                    <div class="dropdown-list" id="dropdown-list-right">
+                    </div>
+                    <div contenteditable="true" class="path" id="right-path"></div>
+                </div>
+                <div class="application-window window-right" id="window-right">
+                    <table class="content-table table-right" id="table-right">
+                        <thead>
+                            <tr>
+                                <th>Név</th>
+                                <th>Formátum</th>
+                                <th>Méret</th>
+                                <th>Dátum</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-right-body">
+                            <tr class="file">
+                                <td>Szar</td>
+                                <td>Szöveges dokumentum (.txt)</td>
+                                <td>10.2Mb</td>
+                                <td>2002-02-12</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <!-- invis -->
+        <!-- saját -->
+        <div class="fileMenu" id="fileCreationMenu"> 
+            <div class="menuItem" id="createFile"><i class="fa-solid fa-file menuIcon"></i>Create File</div>
+            <div class="menuItem" id="createFolder"><i class="fa-solid fa-folder menuIcon"></i>Create Folder</div>
+        </div>
+        <div class="fileMenu" id="fileInteractionMenu">
+            <div class="menuItem">Rename</div>
+            <div class="menuItem">Delete</div>
+        </div>
+
+        <div class="fileEdit" id="fileEdit">
+            <div class="fileEdit-header">
+                <h2 id="fileEdit-title">Funkciónév</h2>
+            </div>
+            <div class="fileEdit-body">
+                <input type="text" id="fileEditInput">
+                <div class="fileEditButton-Container">
+                    <button id="cancel">Cancel</button>
+                    <button id="confirm">Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
